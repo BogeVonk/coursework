@@ -1,0 +1,212 @@
+<mxfile host="Electron">
+  <diagram name="Логическая схема БД" id="0">
+    <mxGraphModel dx="1907" dy="2259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GzrmUPdD_nf9eNrrVC0L-1" edge="1" parent="1" source="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.007;exitY=0.383;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.006;entryY=0.178;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;exitPerimeter=0;" target="e5">
+          <mxGeometry relative="1" x="-0.0053" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="-230.2" />
+              <mxPoint x="390" y="201.1" />
+            </Array>
+            <mxPoint x="430" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzrmUPdD_nf9eNrrVC0L-2" edge="1" parent="1" source="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=-0.006;entryY=0.226;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.002;exitY=0.395;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;" target="e7" value="">
+          <mxGeometry relative="1" x="0.0265" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="-228.6" />
+              <mxPoint x="60" y="-50" />
+              <mxPoint x="910" y="-50" />
+              <mxPoint x="910" y="214.4" />
+            </Array>
+            <mxPoint x="580" y="40.540491052576016" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0" parent="1" style="html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;rounded=0;align=left;verticalAlign=top;" value="&lt;table border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;0&quot; style=&quot;border-collapse:collapse;font-family:Arial;font-size:12px;color:#000;background:#fff;width:270px&quot;&gt;&lt;tr&gt;&lt;td colspan=&quot;3&quot; style=&quot;background:#fff;font-weight:bold;text-align:center;font-size:14px;height:24px&quot;&gt;Клиенты&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;PK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_client&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;ФИО&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(150)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Телефон&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(20)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Электронная почта&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(150)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="130" width="270" x="80" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="p0_0" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="30" y="74.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GzrmUPdD_nf9eNrrVC0L-4" edge="1" parent="1" source="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.306;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=-0.002;entryY=0.279;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;" target="e7">
+          <mxGeometry relative="1" x="0.0564" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="-220.6" />
+              <mxPoint x="760" y="-100" />
+              <mxPoint x="880" y="-100" />
+              <mxPoint x="880" y="231.8" />
+            </Array>
+            <mxPoint x="840" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1" parent="1" style="html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;rounded=0;align=left;verticalAlign=top;" value="&lt;table border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;0&quot; style=&quot;border-collapse:collapse;font-family:Arial;font-size:12px;color:#000;background:#fff;width:270px&quot;&gt;&lt;tr&gt;&lt;td colspan=&quot;3&quot; style=&quot;background:#fff;font-weight:bold;text-align:center;font-size:14px;height:24px&quot;&gt;Сотрудники&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;PK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_employee&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;ФИО&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(150)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Телефон&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(20)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Должность&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(100)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Логин&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(50)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Хеш пароля&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(255)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="194" width="270" x="430" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_0" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="330" y="74.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GzrmUPdD_nf9eNrrVC0L-8" edge="1" parent="1" source="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;" target="e3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" parent="1" style="html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;rounded=0;align=left;verticalAlign=top;" value="&lt;table border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;0&quot; style=&quot;border-collapse:collapse;font-family:Arial;font-size:12px;color:#000;background:#fff;width:270px&quot;&gt;&lt;tr&gt;&lt;td colspan=&quot;3&quot; style=&quot;background:#fff;font-weight:bold;text-align:center;font-size:14px;height:24px&quot;&gt;Бригады&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;PK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_brigade&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Название или номер бригады&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(100)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Контактный телефон&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(20)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="113" width="270" x="850" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_0" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="630" y="74.5" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" parent="1" style="html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;rounded=0;align=left;verticalAlign=top;" value="&lt;table border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;0&quot; style=&quot;border-collapse: collapse; font-family: Arial; font-size: 12px; color: rgb(0, 0, 0); background: rgb(255, 255, 255); width: 270px;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td colspan=&quot;3&quot; style=&quot;background: rgb(255, 255, 255); font-weight: bold; text-align: center; font-size: 14px; height: 24px;&quot;&gt;Монтажники&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;PK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_installer&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp;FK&lt;/td&gt;&lt;td&gt;id_brigade&lt;/td&gt;&lt;td&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;ФИО&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(150)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Телефон&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(20)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="140" width="270" x="1290" y="-293.5" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_0" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="930" y="74.5" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_3" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="930" y="155.5" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" parent="1" style="html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;rounded=0;align=left;verticalAlign=top;" value="&lt;table border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;0&quot; style=&quot;border-collapse: collapse; font-family: Arial; font-size: 12px; color: rgb(0, 0, 0); background: rgb(255, 255, 255); width: 270px;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td colspan=&quot;3&quot; style=&quot;background: rgb(255, 255, 255); font-weight: bold; text-align: center; font-size: 14px; height: 24px;&quot;&gt;Услуги&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;PK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_service&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Название&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(150)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Описание&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;TEXT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Базовая стоимость&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;DECIMAL(10,2)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Тип исполнителя&amp;nbsp;&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(20)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="162.5" width="270" x="46" y="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_0" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="30" y="374.5" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" parent="1" style="html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;rounded=0;align=left;verticalAlign=top;" value="&lt;table border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;0&quot; style=&quot;border-collapse: collapse; font-family: Arial; font-size: 12px; color: rgb(0, 0, 0); background: rgb(255, 255, 255); width: 270px;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td colspan=&quot;3&quot; style=&quot;background: rgb(255, 255, 255); font-weight: bold; text-align: center; font-size: 14px; height: 24px;&quot;&gt;Заявки&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;PK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_application&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;FK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_client&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;FK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_service&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;FK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_employee&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;FK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_brigade&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;id_installer&lt;/td&gt;&lt;td&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Дата создания&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;TIMESTAMP&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Предварительная площадь помещения&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;DECIMAL(8,2)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Адрес монтажа&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(255)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Комментарий&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;TEXT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Статус&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(50)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Причина отмены&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;TEXT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Дата монтажа&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;TIMESTAMP&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Согласие на обработку&amp;nbsp;&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;TIMESTAMP&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="408" width="270" x="496" y="128.5" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_0" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="330" y="374.5" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_1" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="330" y="401.5" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_2" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="330" y="428.5" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_3" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="330" y="455.5" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_4" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="330" y="482.5" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" parent="1" style="html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;rounded=0;align=left;verticalAlign=top;" value="&lt;table border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;0&quot; style=&quot;border-collapse: collapse; font-family: Arial; font-size: 12px; color: rgb(0, 0, 0); background: rgb(255, 255, 255); width: 270px;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td colspan=&quot;3&quot; style=&quot;background: rgb(255, 255, 255); font-weight: bold; text-align: center; font-size: 14px; height: 24px;&quot;&gt;Товары&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;PK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_product&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Название&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(150)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Описание&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;TEXT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Цена&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;DECIMAL(10,2)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Количество на складе&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Изображение&amp;nbsp;&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(255)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="194" width="270" x="332" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_0" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="930" y="374.5" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" parent="1" style="html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;rounded=0;align=left;verticalAlign=top;" value="&lt;table border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;0&quot; style=&quot;border-collapse: collapse; font-family: Arial; font-size: 12px; color: rgb(0, 0, 0); background: rgb(255, 255, 255); width: 270px;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td colspan=&quot;3&quot; style=&quot;background: rgb(255, 255, 255); font-weight: bold; text-align: center; font-size: 14px; height: 24px;&quot;&gt;Заказы&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;PK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_order&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;FK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_client&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;FK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_employee&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;id_application&lt;/td&gt;&lt;td&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Дата заказа&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;TIMESTAMP&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Общая сумма&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;DECIMAL(10,2)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Статус&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(50)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Причина отмены&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;TEXT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Комментарий&amp;nbsp;&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;TEXT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Согласие на обработку&amp;nbsp;&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;TIMESTAMP&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Токен оплаты&amp;nbsp;&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(128)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="329" width="270" x="960" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_0" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="630" y="474.5" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_1" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="630" y="501.5" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_2" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="630" y="528.5" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" parent="1" style="html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;rounded=0;align=left;verticalAlign=top;" value="&lt;table border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;0&quot; style=&quot;border-collapse:collapse;font-family:Arial;font-size:12px;color:#000;background:#fff;width:270px&quot;&gt;&lt;tr&gt;&lt;td colspan=&quot;3&quot; style=&quot;background:#fff;font-weight:bold;text-align:center;font-size:14px;height:24px&quot;&gt;Состав заказа&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;PK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_order_item&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;FK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_order&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;FK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_product&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Количество&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Цена на момент покупки&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;DECIMAL(10,2)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="167" width="270" x="730" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_0" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="30" y="774.5" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_1" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="30" y="801.5" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_2" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="30" y="828.5" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" parent="1" style="html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;rounded=0;align=left;verticalAlign=top;" value="&lt;table border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;0&quot; style=&quot;border-collapse: collapse; font-family: Arial; font-size: 12px; color: rgb(0, 0, 0); background: rgb(255, 255, 255); width: 270px;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td colspan=&quot;3&quot; style=&quot;background: rgb(255, 255, 255); font-weight: bold; text-align: center; font-size: 14px; height: 24px;&quot;&gt;Платежи&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;PK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_payment&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;FK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_order&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Сумма&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;DECIMAL(10,2)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Дата платежа&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;TIMESTAMP&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Способ оплаты&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(50)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Статус&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(50)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Номер транзакции&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(150)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Подтверждена оплата&amp;nbsp;&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;TIMESTAMP&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="248" width="270" x="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_0" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="630" y="774.5" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_1" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="630" y="801.5" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" parent="1" style="html=1;whiteSpace=wrap;strokeColor=#000000;fillColor=#ffffff;rounded=0;align=left;verticalAlign=top;" value="&lt;table border=&quot;1&quot; cellpadding=&quot;4&quot; cellspacing=&quot;0&quot; style=&quot;border-collapse: collapse; font-family: Arial; font-size: 12px; color: rgb(0, 0, 0); background: rgb(255, 255, 255); width: 270px;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td colspan=&quot;3&quot; style=&quot;background: rgb(255, 255, 255); font-weight: bold; text-align: center; font-size: 14px; height: 24px;&quot;&gt;Доставки&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;PK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_delivery&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;FK&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;id_order&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;INTEGER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Способ получения&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(50)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Адрес&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(255)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Дата выдачи или доставки&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;TIMESTAMP&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Статус&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(50)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;width:30px;text-align:center&quot;&gt;&lt;/td&gt;&lt;td style=&quot;width:145px&quot;&gt;Служба доставки&amp;nbsp;&lt;/td&gt;&lt;td style=&quot;width:95px&quot;&gt;VARCHAR(100)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="221" width="270" x="1300" y="309.5" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_0" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="930" y="774.5" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_1" parent="1" style="opacity=0;strokeColor=none;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="2" width="2" x="930" y="801.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GzrmUPdD_nf9eNrrVC0L-3" edge="1" parent="1" source="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.999;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;" target="e5">
+          <mxGeometry relative="1" x="0.026" as="geometry" />
+        </mxCell>
+        <mxCell id="GzrmUPdD_nf9eNrrVC0L-5" edge="1" parent="1" source="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.002;exitY=0.344;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.237;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;exitPerimeter=0;" target="e5">
+          <mxGeometry relative="1" x="-0.1338" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="103.4" />
+              <mxPoint x="370" y="225.2" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzrmUPdD_nf9eNrrVC0L-6" edge="1" parent="1" source="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.007;entryY=0.342;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;" target="e5">
+          <mxGeometry relative="1" x="0.0495" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="-223.5" />
+              <mxPoint x="810" y="268" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzrmUPdD_nf9eNrrVC0L-9" edge="1" parent="1" source="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.152;exitDx=0;exitDy=0;entryX=1.008;entryY=0.441;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;exitPerimeter=0;" target="e8">
+          <mxGeometry relative="1" x="-0.0203" as="geometry">
+            <Array as="points">
+              <mxPoint x="1250" y="190" />
+              <mxPoint x="1250" y="703.6" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzrmUPdD_nf9eNrrVC0L-10" edge="1" parent="1" source="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=-0.001;exitY=0.582;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=ERone;endFill=0;startArrow=ERoneToMany;startFill=0;" target="e6">
+          <mxGeometry relative="1" x="-0.0386" as="geometry" />
+        </mxCell>
+        <mxCell id="GzrmUPdD_nf9eNrrVC0L-11" edge="1" parent="1" source="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.155;exitDx=0;exitDy=0;entryX=0.002;entryY=0.331;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;exitPerimeter=0;" target="e9">
+          <mxGeometry relative="1" x="-0.0104" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="191" />
+              <mxPoint x="940" y="82.1" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzrmUPdD_nf9eNrrVC0L-12" edge="1" parent="1" source="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.001;entryY=0.184;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.005;exitY=0.342;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=ERone;startFill=0;endArrow=ERone;endFill=0;" target="e7">
+          <mxGeometry relative="1" x="-0.2308" as="geometry" />
+        </mxCell>
+        <mxCell id="installer_to_application" edge="1" parent="1" source="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToOne;startFill=0;endArrow=ERzeroToMany;endFill=0;exitX=0;exitY=0.584;entryX=1.007;entryY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="e5">
+          <mxGeometry relative="1" x="-0.0889" as="geometry">
+            <Array as="points">
+              <mxPoint x="1170" y="-211.7" />
+              <mxPoint x="1170" y="-70" />
+              <mxPoint x="840" y="-70" />
+              <mxPoint x="840" y="278.2" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="application_to_order" edge="1" parent="1" source="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERzeroToOne;startFill=0;endArrow=ERzeroToMany;endFill=0;exitX=1;exitY=0.13;entryX=-0.004;entryY=0.372;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="e7">
+          <mxGeometry relative="1" x="0.1285" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="181.5" />
+              <mxPoint x="870" y="262.4" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v5QEtR3dyJAPI-CCe4Cq-4" edge="1" parent="1" source="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.001;exitY=0.36;exitDx=0;exitDy=0;entryX=0.001;entryY=0.423;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;startArrow=ERone;startFill=0;endArrow=ERoneToMany;endFill=0;exitPerimeter=0;" target="e5">
+          <mxGeometry relative="1" x="-0.0772" as="geometry">
+            <Array as="points">
+              <mxPoint x="1210" y="-243.1" />
+              <mxPoint x="1210" y="-330" />
+              <mxPoint x="410" y="-330" />
+              <mxPoint x="410" y="301.1" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

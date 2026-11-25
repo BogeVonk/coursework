@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Натяжные потолки и освещение под ключ.">
+  <title>Магазин освещения — ПОТОЛОК</title>
+  <link rel="stylesheet" href="assets/style.css?v=5">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">
+      <span class="logo-mark">П</span>
+      ПОТОЛОК
+      <span class="logo-dot">.</span>
+    </a>
+    <nav class="main-nav">
+      <a href="services.html">Услуги</a>
+      <a href="prices.html">Цены</a>
+      <a href="portfolio.html">Работы</a>
+      <a href="shop.html">Магазин</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+    <div class="header-actions">
+      <a class="phone" href="tel:+78005553535">8 800 555-35-35</a>
+      <a class="cart-link" href="cart.html">
+        Корзина
+        <span class="cart-count" data-cart-count>0</span>
+      </a>
+      <button type="button" class="btn btn-dark btn-small" data-open-quote>
+        Заказать звонок
+      </button>
+      <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="breadcrumbs">
+        <a href="index.html">Главная</a> / Магазин
+      </div>
+      <div class="kicker">МАГАЗИН ОСВЕЩЕНИЯ</div>
+      <h1>Свет формирует<br><em>настроение.</em></h1>
+      <p>Каталог освещения: светильники, люстры, трековые системы, LED-ленты и световые линии.</p>
+    </section>
+
+    <section class="section container">
+      <div class="filters">
+        <input id="productSearch" type="search" placeholder="Поиск по названию или категории">
+        <select id="categoryFilter">
+          <option value="all">Все категории</option>
+          <option value="Светильники">Светильники</option>
+          <option value="Люстры">Люстры</option>
+          <option value="Трековое освещение">Трековое освещение</option>
+          <option value="LED-ленты">LED-ленты</option>
+          <option value="Световые линии">Световые линии</option>
+        </select>
+        <select id="sortFilter">
+          <option value="">Без сортировки</option>
+          <option value="asc">Сначала дешевле</option>
+          <option value="desc">Сначала дороже</option>
+        </select>
+      </div>
+
+      <p id="noProducts" class="muted" hidden>Ничего не найдено.</p>
+
+      <div class="product-grid">
+
+        <article class="product-card" data-product data-id="spot-01" data-name="Светильник встраиваемый Luma" data-price="590" data-category="Светильники" data-image="photo/1.jpg">
+          <img src="photo/1.jpg" alt="Светильник встраиваемый Luma">
+          <div class="product-info">
+            <h3>Светильник встраиваемый Luma</h3>
+            <p>Компактный встраиваемый светильник для аккуратного потолочного освещения.</p>
+            <div class="product-price">590 ₽</div>
+            <div class="product-actions">
+              <a class="btn btn-outline" href="product.html?id=spot-01">Подробнее</a>
+              <button class="btn btn-accent" data-add-product>В корзину</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-product data-id="spot-02" data-name="Светильник накладной Forma" data-price="890" data-category="Светильники" data-image="photo/2.avif">
+          <img src="photo/2.avif" alt="Светильник накладной Forma">
+          <div class="product-info">
+            <h3>Светильник накладной Forma</h3>
+            <p>Накладной светильник с лаконичным дизайном для современных интерьеров.</p>
+            <div class="product-price">890 ₽</div>
+            <div class="product-actions">
+              <a class="btn btn-outline" href="product.html?id=spot-02">Подробнее</a>
+              <button class="btn btn-accent" data-add-product>В корзину</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-product data-id="spot-03" data-name="Светильник поворотный Spot" data-price="750" data-category="Светильники" data-image="photo/3.webp">
+          <img src="photo/3.webp" alt="Светильник поворотный Spot">
+          <div class="product-info">
+            <h3>Светильник поворотный Spot</h3>
+            <p>Поворотный светильник для направленного акцентного света.</p>
+            <div class="product-price">750 ₽</div>
+            <div class="product-actions">
+              <a class="btn btn-outline" href="product.html?id=spot-03">Подробнее</a>
+              <button class="btn btn-accent" data-add-product>В корзину</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-product data-id="lustre-01" data-name="Люстра подвесная Ring" data-price="4900" data-category="Люстры" data-image="photo/4.jpeg">
+          <img src="photo/4.jpeg" alt="Люстра подвесная Ring">
+          <div class="product-info">
+            <h3>Люстра подвесная Ring</h3>
+            <p>Круглая подвесная люстра с мягким рассеянным светом.</p>
+            <div class="product-price">4 900 ₽</div>
+            <div class="product-actions">
+              <a class="btn btn-outline" href="product.html?id=lustre-01">Подробнее</a>
+              <button class="btn btn-accent" data-add-product>В корзину</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-product data-id="lustre-02" data-name="Люстра каскадная Cascade" data-price="6500" data-category="Люстры" data-image="photo/5.jpg">
+          <img src="photo/5.jpg" alt="Люстра каскадная Cascade">
+          <div class="product-info">
+            <h3>Люстра каскадная Cascade</h3>
+            <p>Каскадная люстра с несколькими уровнями подвесов.</p>
+            <div class="product-price">6 500 ₽</div>
+            <div class="product-actions">
+              <a class="btn btn-outline" href="product.html?id=lustre-02">Подробнее</a>
+              <button class="btn btn-accent" data-add-product>В корзину</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-product data-id="lustre-03" data-name="Люстра минималистичная Line" data-price="5200" data-category="Люстры" data-image="photo/6.webp">
+          <img src="photo/6.webp" alt="Люстра минималистичная Line">
+          <div class="product-info">
+            <h3>Люстра минималистичная Line</h3>
+            <p>Линейная люстра для лаконичных современных интерьеров.</p>
+            <div class="product-price">5 200 ₽</div>
+            <div class="product-actions">
+              <a class="btn btn-outline" href="product.html?id=lustre-03">Подробнее</a>
+              <button class="btn btn-accent" data-add-product>В корзину</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-product data-id="track-01" data-name="Трековый модуль Line" data-price="2490" data-category="Трековое освещение" data-image="photo/7.webp">
+          <img src="photo/7.webp" alt="Трековый модуль Line">
+          <div class="product-info">
+            <h3>Трековый модуль Line</h3>
+            <p>Модуль для организации направленного света и акцентного освещения.</p>
+            <div class="product-price">2 490 ₽</div>
+            <div class="product-actions">
+              <a class="btn btn-outline" href="product.html?id=track-01">Подробнее</a>
+              <button class="btn btn-accent" data-add-product>В корзину</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-product data-id="track-02" data-name="Трековая система 1 м" data-price="1890" data-category="Трековое освещение" data-image="photo/8.webp">
+          <img src="photo/8.webp" alt="Трековая система 1 м">
+          <div class="product-info">
+            <h3>Трековая система 1 м</h3>
+            <p>Базовый трек длиной 1 м для монтажа модулей освещения.</p>
+            <div class="product-price">1 890 ₽</div>
+            <div class="product-actions">
+              <a class="btn btn-outline" href="product.html?id=track-02">Подробнее</a>
+              <button class="btn btn-accent" data-add-product>В корзину</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-product data-id="led-01" data-name="LED-лента Warm 5 м" data-price="1250" data-category="LED-ленты" data-image="photo/9.webp">
+          <img src="photo/9.webp" alt="LED-лента Warm 5 м">
+          <div class="product-info">
+            <h3>LED-лента Warm 5 м</h3>
+            <p>Светодиодная лента для декоративной подсветки ниш и карнизов.</p>
+            <div class="product-price">1 250 ₽</div>
+            <div class="product-actions">
+              <a class="btn btn-outline" href="product.html?id=led-01">Подробнее</a>
+              <button class="btn btn-accent" data-add-product>В корзину</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-product data-id="led-02" data-name="LED-лента Neutral 5 м" data-price="1390" data-category="LED-ленты" data-image="photo/10.webp">
+          <img src="photo/10.webp" alt="LED-лента Neutral 5 м">
+          <div class="product-info">
+            <h3>LED-лента Neutral 5 м</h3>
+            <p>Лента нейтрального оттенка для дополнительного освещения помещения.</p>
+            <div class="product-price">1 390 ₽</div>
+            <div class="product-actions">
+              <a class="btn btn-outline" href="product.html?id=led-02">Подробнее</a>
+              <button class="btn btn-accent" data-add-product>В корзину</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-product data-id="line-01" data-name="Световая линия Profile 1 м" data-price="3200" data-category="Световые линии" data-image="photo/11.png">
+          <img src="photo/11.png" alt="Световая линия Profile 1 м">
+          <div class="product-info">
+            <h3>Световая линия Profile 1 м</h3>
+            <p>Готовая световая линия в профиле для ровного потолочного света.</p>
+            <div class="product-price">3 200 ₽</div>
+            <div class="product-actions">
+              <a class="btn btn-outline" href="product.html?id=line-01">Подробнее</a>
+              <button class="btn btn-accent" data-add-product>В корзину</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-product data-id="line-02" data-name="Световая линия Duo 1 м" data-price="3900" data-category="Световые линии" data-image="photo/12.webp">
+          <img src="photo/12.webp" alt="Световая линия Duo 1 м">
+          <div class="product-info">
+            <h3>Световая линия Duo 1 м</h3>
+            <p>Двойная световая линия для выразительного акцентного освещения.</p>
+            <div class="product-price">3 900 ₽</div>
+            <div class="product-actions">
+              <a class="btn btn-outline" href="product.html?id=line-02">Подробнее</a>
+              <button class="btn btn-accent" data-add-product>В корзину</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="logo logo-light" href="index.html">
+      <span class="logo-mark">П</span>
+      ПОТОЛОК
+      <span class="logo-dot">.</span>
+    </a>
+    <p>Потолочные решения для вашего пространства.</p>
+    <div class="footer-links">
+      <a href="services.html">Услуги</a>
+      <a href="prices.html">Цены</a>
+      <a href="portfolio.html">Работы</a>
+      <a href="shop.html">Магазин</a>
+      <a href="contacts.html">Контакты</a>
+      <a href="cart.html">Корзина</a>
+    </div>
+
+  <a class="privacy-footer-link" href="privacy.html">Политика конфиденциальности</a>
+  </footer>
+
+  <div class="toast"></div>
+
+  <div class="modal" id="quoteModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel">
+      <button class="modal-close" data-close-modal aria-label="Закрыть">×</button>
+      <div class="kicker">ЗАЯВКА НА ЗАМЕР</div>
+      <h2>Расскажите о вашем потолке</h2>
+      <p>Оставьте контакты — менеджер уточнит детали и поможет с расчётом.</p>
+      <form id="quoteForm" class="form-grid">
+        <label>Ваше имя
+          <input name="name" required placeholder="Как к вам обращаться">
+        </label>
+        <label>Телефон
+          <input name="number_phone" type="tel" required placeholder="+7 (___) ___-__-__">
+          <input name="email" type="email" placeholder="Электронная почта">
+        </label>
+        <label>Площадь, м²
+          <input name="area" type="number" min="1" required placeholder="Например, 18">
+        </label>
+
+        <fieldset class="service-select">
+          <legend>Какая услуга вас интересует?</legend>
+
+          <label>
+            <input type="radio" name="services" value="Монтаж натяжного потолка" required>
+            Монтаж натяжного потолка
+          </label>
+
+          <label>
+            <input type="radio" name="services" value="Слив воды">
+            Слив воды после затопления
+          </label>
+
+          <label>
+            <input type="radio" name="services" value="Демонтаж старого потолка">
+            Демонтаж старого потолка
+          </label>
+
+          <label>
+            <input type="radio" name="services" value="Ремонт и вставка полотна">
+            Ремонт и замена полотна
+          </label>
+        </fieldset>
+
+        <label>Адрес
+          <input name="address" required placeholder="Город, улица">
+        </label>
+        <label>Комментарий
+          <textarea name="comment" rows="3" placeholder="Пожелания и особенности помещения"></textarea>
+        </label>
+        <label class="privacy-consent"><input type="checkbox" name="privacy_consent" required> <span>Я согласен на обработку персональных данных и принимаю <a href="privacy.html" target="_blank">политику конфиденциальности</a>.</span></label>
+          <button class="btn btn-accent full" type="submit">Отправить заявку ↗</button>
+        <small class="form-note">Данные используются для связи по вашей заявке.</small>
+      </form>
+      <div class="form-result"></div>
+    </div>
+  </div>
+
+  <script src="assets/app.js?v=5"></script>
+  <script src="assets/shop.js"></script>
+</body>
+</html>

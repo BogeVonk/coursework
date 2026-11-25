@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Натяжные потолки и освещение под ключ.">
+  <title>Портфолио — ПОТОЛОК</title>
+  <link rel="stylesheet" href="assets/style.css?v=5">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">
+      <span class="logo-mark">П</span>
+      ПОТОЛОК
+      <span class="logo-dot">.</span>
+    </a>
+    <nav class="main-nav">
+      <a href="services.html">Услуги</a>
+      <a href="prices.html">Цены</a>
+      <a href="portfolio.html">Работы</a>
+      <a href="shop.html">Магазин</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+    <div class="header-actions">
+      <a class="phone" href="tel:+78005553535">8 800 555-35-35</a>
+      <a class="cart-link" href="cart.html">
+        Корзина
+        <span class="cart-count" data-cart-count>0</span>
+      </a>
+      <button type="button" class="btn btn-dark btn-small" data-open-quote>
+        Заказать звонок
+      </button>
+      <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="breadcrumbs">
+        <a href="index.html">Главная</a> / Портфолио
+      </div>
+      <div class="kicker">ПРИМЕРЫ ИНТЕРЬЕРОВ</div>
+      <h1>Идеи для вашего<br><em>пространства.</em></h1>
+      <p>Подборка интерьерных решений, которые помогают представить сочетание потолочных фактур, света и общей композиции.</p>
+    </section>
+
+    <section class="section container">
+      <div class="grid grid-3">
+        <article class="service-card">
+          <img src="photo/гостинная_в_спокойных_тонах.jpg">
+          <div class="card-meta"><span>ГОСТИНАЯ</span><span>01</span></div>
+          <h3>Спокойная классика</h3>
+          <p>Матовая фактура и встроенное освещение.</p>
+        </article>
+        <article class="service-card">
+          <img src="photo/Современная кухня.jpg">
+          <div class="card-meta"><span>КУХНЯ</span><span>02</span></div>
+          <h3>Светлая геометрия</h3>
+          <p>Сдержанный потолок и равномерный свет.</p>
+        </article>
+        <article class="service-card">
+          <img src="photo/спальня.jpg">
+          <div class="card-meta"><span>СПАЛЬНЯ</span><span>03</span></div>
+          <h3>Мягкая атмосфера</h3>
+          <p>Нейтральные оттенки и скрытая подсветка.</p>
+        </article>
+        <article class="service-card">
+          <img src="photo/гостинная2.jpg">
+          <div class="card-meta"><span>ГОСТИНАЯ</span><span>04</span></div>
+          <h3>Линии света</h3>
+          <p>Акцентное освещение в современном интерьере.</p>
+        </article>
+        <article class="service-card">
+          <img src="photo/кухня2.jpg">
+          <div class="card-meta"><span>КУХНЯ</span><span>05</span></div>
+          <h3>Деликатный блеск</h3>
+          <p>Сатиновая поверхность и точечные источники света.</p>
+        </article>
+        <article class="service-card">
+          <img src="photo/минимализм.jpg">
+          <div class="card-meta"><span>ИНТЕРЬЕР</span><span>06</span></div>
+          <h3>Минимализм</h3>
+          <p>Чистые линии и лаконичное оформление.</p>
+        </article>
+      </div>
+      </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="logo logo-light" href="index.html">
+      <span class="logo-mark">П</span>
+      ПОТОЛОК
+      <span class="logo-dot">.</span>
+    </a>
+    <p>Потолочные решения для вашего пространства.</p>
+    <div class="footer-links">
+      <a href="services.html">Услуги</a>
+      <a href="prices.html">Цены</a>
+      <a href="portfolio.html">Работы</a>
+      <a href="shop.html">Магазин</a>
+      <a href="contacts.html">Контакты</a>
+      <a href="cart.html">Корзина</a>
+    </div>
+
+  <a class="privacy-footer-link" href="privacy.html">Политика конфиденциальности</a>
+  </footer>
+
+  <div class="toast"></div>
+
+  <div class="modal" id="quoteModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel">
+      <button class="modal-close" data-close-modal aria-label="Закрыть">×</button>
+      <div class="kicker">ЗАЯВКА НА ЗАМЕР</div>
+      <h2>Расскажите о вашем потолке</h2>
+      <p>Оставьте контакты — менеджер уточнит детали и поможет с расчётом.</p>
+      <form id="quoteForm" class="form-grid">
+        <label>Ваше имя
+          <input name="name" required placeholder="Как к вам обращаться">
+        </label>
+        <label>Телефон
+          <input name="number_phone" type="tel" required placeholder="+7 (___) ___-__-__">
+          <input name="email" type="email" placeholder="Электронная почта">
+        </label>
+        <label>Площадь, м²
+          <input name="area" type="number" min="1" required placeholder="Например, 18">
+        </label>
+
+        <fieldset class="service-select">
+          <legend>Какая услуга вас интересует?</legend>
+
+          <label>
+            <input type="radio" name="services" value="Монтаж натяжного потолка" required>
+            Монтаж натяжного потолка
+          </label>
+
+          <label>
+            <input type="radio" name="services" value="Слив воды">
+            Слив воды после затопления
+          </label>
+
+          <label>
+            <input type="radio" name="services" value="Демонтаж старого потолка">
+            Демонтаж старого потолка
+          </label>
+
+          <label>
+            <input type="radio" name="services" value="Ремонт и вставка полотна">
+            Ремонт и замена полотна
+          </label>
+        </fieldset>
+
+        <label>Адрес
+          <input name="address" required placeholder="Город, улица">
+        </label>
+        <label>Комментарий
+          <textarea name="comment" rows="3" placeholder="Пожелания и особенности помещения"></textarea>
+        </label>
+        <label class="privacy-consent"><input type="checkbox" name="privacy_consent" required> <span>Я согласен на обработку персональных данных и принимаю <a href="privacy.html" target="_blank">политику конфиденциальности</a>.</span></label>
+          <button class="btn btn-accent full" type="submit">Отправить заявку ↗</button>
+        <small class="form-note">Данные используются для связи по вашей заявке.</small>
+      </form>
+      <div class="form-result"></div>
+    </div>
+  </div>
+
+  <script src="assets/app.js?v=5"></script>
+</body>
+</html>

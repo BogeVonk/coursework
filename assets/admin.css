@@ -1,0 +1,30 @@
+.admin-page { max-width: 1440px; }
+.admin-page .section-heading { display:flex; align-items:flex-end; justify-content:space-between; gap:32px; margin-bottom:42px; }
+.admin-page h1 { margin:8px 0 0; }
+.admin-stats { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:16px; margin:0 0 28px; }
+.admin-stat { background:#fff; border:1px solid #e3e7ed; border-radius:14px; padding:20px; display:flex; flex-direction:column; gap:6px; min-width:0; }
+.admin-stat b { font-size:30px; line-height:1.1; color:#202631; }
+.admin-stat span { color:#727b89; font-size:12px; }
+.admin-tabs { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:18px; }
+.admin-tab { border:1px solid #e3e7ed; background:#fff; color:#202631; border-radius:20px; padding:10px 16px; cursor:pointer; font:inherit; font-size:13px; }
+.admin-tab.active { background:#202631; color:#fff; border-color:#202631; }
+.admin-panel { background:#fff; border:1px solid #e3e7ed; border-radius:16px; overflow:hidden; }
+.admin-toolbar { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:16px; border-bottom:1px solid #e3e7ed; }
+.admin-action { border:1px solid #e3e7ed; border-radius:7px; background:#fff; color:#202631; padding:6px 9px; font:inherit; font-size:11px; margin:2px; cursor:pointer; }
+.admin-action:hover { border-color:#4169d8; color:#4169d8; }
+.admin-action[data-action^="delete"] { color:#a33; }
+.admin-action[data-action="create-record"] { background:#202631; color:#fff; border-color:#202631; padding:9px 14px; font-size:13px; }
+.admin-table-wrap { overflow-x:auto; }
+.admin-table { width:100%; border-collapse:collapse; min-width:680px; }
+.admin-table th,.admin-table td { padding:14px 16px; text-align:left; border-bottom:1px solid #e3e7ed; font-size:13px; }
+.admin-table th { background:#f6f7f9; color:#727b89; font-size:11px; text-transform:uppercase; letter-spacing:.08em; }
+.admin-table tr:last-child td { border-bottom:0; }
+@media (max-width:900px) { .admin-stats { grid-template-columns:repeat(3,minmax(0,1fr)); } }
+@media (max-width:700px) { .admin-page .section-heading { align-items:flex-start; flex-direction:column; gap:18px; } .admin-page .section-heading .btn { width:100%; } .admin-stats { grid-template-columns:1fr 1fr; } .admin-toolbar { align-items:flex-start; flex-direction:column; } .admin-tabs { overflow-x:auto; flex-wrap:nowrap; padding-bottom:4px; } .admin-tab { white-space:nowrap; } }
+
+.admin-login { max-width: 720px; padding-top: 100px; } .admin-login-card { background:#fff; border:1px solid #e3e7ed; border-radius:18px; padding:36px; box-shadow:0 12px 34px rgba(24,38,61,.07); } .admin-login-card h1 { margin:10px 0 28px; font-size:42px; } .btn-light { background:#fff; color:#202631; border:1px solid #e3e7ed; } @media(max-width:600px){.admin-login{padding-top:50px}.admin-login-card{padding:24px}.admin-login-card h1{font-size:32px}}
+.admin-modal{position:fixed;inset:0;background:rgba(20,28,40,.45);display:none;align-items:center;justify-content:center;padding:20px;z-index:300}.admin-modal.open{display:flex}.admin-modal-card{position:relative;background:#fff;border-radius:18px;width:min(620px,100%);padding:30px;box-shadow:0 20px 60px rgba(0,0,0,.2)}.admin-modal-card h2{margin:0 0 22px}.admin-modal-close{position:absolute;right:16px;top:12px;border:0;background:transparent;font-size:28px;color:#727b89;cursor:pointer}.admin-modal-fields{display:grid;gap:14px}.admin-modal-fields label{display:grid;gap:6px;font-size:12px;color:#727b89}.admin-modal-fields input,.admin-modal-fields textarea{width:100%;padding:11px;border:1px solid #e3e7ed;border-radius:8px}.admin-modal-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:18px}
+.admin-date-filter{display:flex;align-items:center;gap:8px;font-size:12px;color:#727b89}.admin-date-filter input,.admin-modal-fields select{padding:9px;border:1px solid #e3e7ed;border-radius:8px;background:#fff;font:inherit}
+.admin-stat, .admin-panel, .admin-modal-card, .admin-login-card { border-radius: 7px; }
+.admin-tab, .admin-action, .admin-date-filter input { border-radius: 5px; }
+.admin-modal-card { max-height: 90vh; overflow-y: auto; }
